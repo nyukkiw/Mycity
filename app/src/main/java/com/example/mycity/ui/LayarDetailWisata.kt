@@ -27,20 +27,23 @@ import com.example.mycity.ui.theme.MycityTheme
 
 /**
  * Layar ketiga: menampilkan foto, lokasi, dan deskripsi satu tempat wisata.
- *
- * TODO (penyambungan): tombol kembali di bar atas memanggil
- *  ViewModelWisata.kembaliKeDaftarWisata().
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LayarDetailWisata(
     tempatWisata: TempatWisata,
+    saatTombolKembaliDiklik: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Scaffold(
         modifier = modifier.fillMaxSize(),
         topBar = {
-            TopAppBar(title = { Text(text = stringResource(tempatWisata.nama)) })
+            TopAppBar(
+                title = { Text(text = stringResource(tempatWisata.nama)) },
+                navigationIcon = {
+                    TombolKembali(saatDiklik = saatTombolKembaliDiklik)
+                }
+            )
         }
     ) { jarakDalam ->
         Column(
@@ -83,6 +86,9 @@ fun LayarDetailWisata(
 @Composable
 private fun PratinjauLayarDetailWisata() {
     MycityTheme {
-        LayarDetailWisata(tempatWisata = PenyediaDataWisata.semuaTempatWisata.first())
+        LayarDetailWisata(
+            tempatWisata = PenyediaDataWisata.semuaTempatWisata.first(),
+            saatTombolKembaliDiklik = {}
+        )
     }
 }
