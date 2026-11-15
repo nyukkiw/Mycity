@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">MyCity Jogja</string>
+
+    <!-- Judul layar -->
+    <string name="judul_layar_kategori">Wisata Jogja</string>
+    <string name="label_lokasi">Lokasi</string>
+    <string name="label_tentang_tempat">Tentang tempat ini</string>
+    <string name="deskripsi_tombol_kembali">Kembali</string>
+
+    <!-- Kategori -->
+    <string name="kategori_alam">Alam</string>
+    <string name="kategori_budaya_dan_sejarah">Budaya &amp; Sejarah</string>
+    <string name="kategori_kuliner">Kuliner</string>
+    <string name="kategori_belanja">Belanja</string>
+
+    <!-- ===== Alam ===== -->
+    <string name="nama_pantai_parangtritis">Pantai Parangtritis</string>
+    <string name="deskripsi_pantai_parangtritis">Pantai paling terkenal di Yogyakarta dengan ombak besar, gumuk pasir, dan pemandangan matahari terbenam. Pantai ini juga lekat dengan legenda Nyi Roro Kidul.</string>
+    <string name="lokasi_pantai_parangtritis">Kretek, Bantul</string>
+
+    <string name="nama_pantai_indrayanti">Pantai Indrayanti</string>
+    <string name="deskripsi_pantai_indrayanti">Pantai berpasir putih dengan air yang jernih dan dikelilingi tebing karang. Cocok untuk bersantai dan menikmati makanan laut di tepi pantai.</string>
+    <string name="lokasi_pantai_indrayanti">Tepus, Gunungkidul</string>
+
+    <string name="nama_hutan_pinus_mangunan">Hutan Pinus Mangunan</string>
+    <string name="deskripsi_hutan_pinus_mangunan">Hutan pinus yang sejuk dan rindang dengan banyak sudut foto. Pada pagi hari, pengunjung sering menikmati kabut tipis di antara pepohonan.</string>
+    <string name="lokasi_hutan_pinus_mangunan">Dlingo, Bantul</string>
+
+    <string name="nama_goa_pindul">Goa Pindul</string>
+    <string name="deskripsi_goa_pindul">Wisata susur goa dengan ban pelampung (cave tubing) mengikuti aliran sungai di dalam goa. Pengunjung dapat melihat stalaktit dan stalakmit dari atas air.</string>
+    <string name="lokasi_goa_pindul">Karangmojo, Gunungkidul</string>
+
+    <string name="nama_kaliurang">Kaliurang</string>
+    <string name="deskripsi_kaliurang">Kawasan wisata di lereng Gunung Merapi dengan udara yang sejuk. Pengunjung dapat berjalan-jalan di alam, mengunjungi museum gunung api, dan mengikuti wisata jip lava tour.</string>
+    <string name="lokasi_kaliurang">Pakem, Sleman</string>
+
+    <!-- ===== Budaya dan Sejarah ===== -->
+    <string name="nama_candi_prambanan">Candi Prambanan</string>
+    <string name="deskripsi_candi_prambanan">Kompleks candi Hindu yang dibangun pada abad ke-9 dan menjadi Warisan Dunia UNESCO. Candi ini dipersembahkan untuk tiga dewa utama dan terkenal dengan pertunjukan Sendratari Ramayana.</string>
+    <string name="lokasi_candi_prambanan">Prambanan, Sleman</string>
+
+    <string name="nama_keraton_yogyakarta">Keraton Yogyakarta</string>
+    <string name="deskripsi_keraton_yogyakarta">Istana tempat tinggal Sultan Yogyakarta sekaligus pusat budaya Jawa. Pengunjung dapat melihat museum, benda pusaka, dan pertunjukan seni tradisional.</string>
+    <string name="lokasi_keraton_yogyakarta">Kraton, Kota Yogyakarta</string>
+
+    <string name="nama_taman_sari">Taman Sari</string>
+    <string name="deskripsi_taman_sari">Bekas taman istana yang dibangun pada masa Sultan Hamengkubuwono I. Tempat ini memiliki kolam pemandian, lorong bawah tanah, dan bangunan bersejarah yang unik.</string>
+    <string name="lokasi_taman_sari">Kraton, Kota Yogyakarta</string>
+
+    <string name="nama_candi_ratu_boko">Candi Ratu Boko</string>
+    <string name="deskripsi_candi_ratu_boko">Situs peninggalan kuno di atas bukit yang diyakini sebagai bekas kompleks istana. Tempat ini terkenal dengan gerbang besarnya dan pemandangan matahari terbenam.</string>
+    <string name="lokasi_candi_ratu_boko">Prambanan, Sleman</string>
+
+    <string name="nama_benteng_vredeburg">Museum Benteng Vredeburg</string>
+    <string name="deskripsi_benteng_vredeburg">Bangunan benteng peninggalan masa kolonial Belanda yang kini menjadi museum. Di dalamnya terdapat diorama yang menceritakan perjuangan bangsa Indonesia.</string>
+    <string name="lokasi_benteng_vredeburg">Gondomanan, Kota Yogyakarta</string>
+
+    <!-- ===== Kuliner ===== -->
+    <string name="nama_gudeg_yu_djum">Gudeg Yu Djum</string>
+    <string name="deskripsi_gudeg_yu_djum">Gudeg adalah makanan khas Yogyakarta dari nangka muda yang dimasak manis. Disajikan bersama nasi, telur, ayam, dan sambal krecek.</string>
+    <string name="lokasi_gudeg_yu_djum">Wijilan, Kota Yogyakarta</string>
+
+    <string name="nama_sate_klathak_pak_pong">Sate Klathak Pak Pong</string>
+    <string name="deskripsi_sate_klathak_pak_pong">Sate kambing yang ditusuk dengan jeruji besi dan dibumbui garam saja. Rasanya gurih dan disajikan dengan kuah gulai.</string>
+    <string name="lokasi_sate_klathak_pak_pong">Pleret, Bantul</string>
+
+    <string name="nama_bakpia_pathok">Bakpia Pathok</string>
+    <string name="deskripsi_bakpia_pathok">Kue kecil berisi kacang hijau yang menjadi oleh-oleh khas Yogyakarta. Kampung Pathok dikenal sebagai sentra pembuatannya.</string>
+    <string name="lokasi_bakpia_pathok">Ngampilan, Kota Yogyakarta</string>
+
+    <string name="nama_kopi_joss_lik_man">Kopi Joss Angkringan Lik Man</string>
+    <string name="deskripsi_kopi_joss_lik_man">Kopi hitam yang diberi arang panas sehingga menimbulkan bunyi desis. Dinikmati di angkringan bersama nasi kucing dan sate-satean.</string>
+    <string name="lokasi_kopi_joss_lik_man">Dekat Stasiun Tugu, Kota Yogyakarta</string>
+
+    <string name="nama_mangut_lele_mbah_marto">Mangut Lele Mbah Marto</string>
+    <string name="deskripsi_mangut_lele_mbah_marto">Ikan lele asap yang dimasak dengan kuah santan pedas. Biasanya dimakan dengan nasi hangat.</string>
+    <string name="lokasi_mangut_lele_mbah_marto">Sewon, Bantul</string>
+
+    <!-- ===== Belanja ===== -->
+    <string name="nama_jalan_malioboro">Jalan Malioboro</string>
+    <string name="deskripsi_jalan_malioboro">Jalan paling terkenal di pusat kota Yogyakarta. Banyak pedagang menjual batik, kaos, dan oleh-oleh dengan harga yang bisa ditawar.</string>
+    <string name="lokasi_jalan_malioboro">Gedongtengen, Kota Yogyakarta</string>
+
+    <string name="nama_pasar_beringharjo">Pasar Beringharjo</string>
+    <string name="deskripsi_pasar_beringharjo">Pasar tradisional terbesar di Yogyakarta yang menjual batik, jamu, dan jajanan pasar. Letaknya tidak jauh dari Malioboro.</string>
+    <string name="lokasi_pasar_beringharjo">Gondomanan, Kota Yogyakarta</string>
+
+    <string name="nama_kotagede">Kerajinan Perak Kotagede</string>
+    <string name="deskripsi_kotagede">Kawasan kota tua yang terkenal dengan kerajinan perak. Pengunjung dapat melihat langsung proses pembuatan perhiasan dan membelinya.</string>
+    <string name="lokasi_kotagede">Kotagede, Kota Yogyakarta</string>
+
+    <string name="nama_kasongan">Sentra Gerabah Kasongan</string>
+    <string name="deskripsi_kasongan">Desa pengrajin gerabah yang membuat vas, guci, dan patung dari tanah liat. Pengunjung dapat melihat pembuatannya dan membeli hasilnya.</string>
+    <string name="lokasi_kasongan">Kasihan, Bantul</string>
+
+    <string name="nama_kampung_batik_giriloyo">Kampung Batik Giriloyo</string>
+    <string name="deskripsi_kampung_batik_giriloyo">Kampung pengrajin batik tulis. Pengunjung dapat mengikuti kelas membatik dan membeli kain batik langsung dari pembuatnya.</string>
+    <string name="lokasi_kampung_batik_giriloyo">Imogiri, Bantul</string>
+</resources>
