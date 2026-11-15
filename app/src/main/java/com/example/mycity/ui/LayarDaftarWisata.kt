@@ -1,5 +1,6 @@
 package com.example.mycity.ui
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -29,6 +30,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.mycity.R
 import com.example.mycity.data.PenyediaDataWisata
 import com.example.mycity.model.JenisKategori
 import com.example.mycity.model.TempatWisata
@@ -36,22 +38,25 @@ import com.example.mycity.ui.theme.MycityTheme
 
 /**
  * Layar kedua: menampilkan daftar tempat wisata pada kategori yang dipilih.
- *
- * TODO (penyambungan): tombol kembali di bar atas memanggil
- *  ViewModelWisata.kembaliKeDaftarKategori().
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LayarDaftarWisata(
+    @StringRes judulKategori: Int,
     daftarTempatWisata: List<TempatWisata>,
     saatTempatDipilih: (TempatWisata) -> Unit,
+    saatTombolKembaliDiklik: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Scaffold(
         modifier = modifier.fillMaxSize(),
         topBar = {
-            // TODO (penyambungan): tampilkan nama kategori yang dipilih sebagai judul.
-            TopAppBar(title = { Text(text = "") })
+            TopAppBar(
+                title = { Text(text = stringResource(judulKategori)) },
+                navigationIcon = {
+                    TombolKembali(saatDiklik = saatTombolKembaliDiklik)
+                }
+            )
         }
     ) { jarakDalam ->
         LazyColumn(
@@ -113,8 +118,10 @@ private fun KartuTempatWisata(
 private fun PratinjauLayarDaftarWisata() {
     MycityTheme {
         LayarDaftarWisata(
+            judulKategori = R.string.kategori_alam,
             daftarTempatWisata = PenyediaDataWisata.ambilTempatBerdasarkanKategori(JenisKategori.ALAM),
-            saatTempatDipilih = {}
+            saatTempatDipilih = {},
+            saatTombolKembaliDiklik = {}
         )
     }
 }
